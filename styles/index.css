@@ -1,0 +1,11 @@
+.container{
+    display:flex;
+    justify-content: center;
+    gap:10em;
+    padding-top: 5em;;
+}
+
+.selection-image{
+    height:10em;
+    width:10em;
+}

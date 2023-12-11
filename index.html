@@ -2,9 +2,16 @@
 <html>
     <head>
         <script src="./scripts/game.js"></script>
+        <link rel="stylesheet" href="./styles/index.css">
     </head>
     <body>
-        <h1>Welcome to console game of Rock, Paper, Scissors!!</h1>
-        <div><button id="playGame">Start New Game</button></div>>
+        <h1 class="container">Welcome to console game of Rock, Paper, Scissors!!</h1>
+        <div class="container"><button id="playGame">Start New Game</button></div>
+        <div class="container">
+            <button  id="rock"><img class="selection-image" src="./images/rock.png"></button>
+            <button  id="scissors"><img class="selection-image" src="./images/scissors.jpeg"></button>
+            <button  id="paper"><img class="selection-image" src="./images/paper.png"></button>
+        </div>
+        <div class="container" id="game-output">Game result</div>
     </body>
 </html>
