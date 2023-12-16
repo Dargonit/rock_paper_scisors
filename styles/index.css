@@ -2,7 +2,13 @@
     display:flex;
     justify-content: center;
     gap:10em;
-    padding-top: 5em;;
+    padding-top: 2em;
+}
+
+.container-item{
+    display:flex;
+    justify-content: center;
+    padding-top: 2em;
 }
 
 .selection-image{
